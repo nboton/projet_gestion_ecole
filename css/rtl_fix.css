@@ -1,0 +1,24 @@
+
+
+/*-----------------------------------------
+Fix RTL direction
+-----------------------------------------*/
+
+.nav_right {
+    float: left;
+}
+
+a.return {
+	float: left;
+	margin: 10px;
+}
+
+h1.h1_title {
+	clear: both;
+}
+
+.formError .formErrorArrow {
+	float: left;
+}
+
+

@@ -1,0 +1,14 @@
+<?php
+
+require ('../includes/fpdf17/fpdf.php');
+//A4 width :219mm
+//default margin : 10mm each side
+//writable horizontal :219-(10*2)=189mm
+$pdf = new FPDF ('p','mm','A4');
+$pdf->AddPage();
+//set font to arial,bold,14pt
+$pdf->SetFont('Arial','B',14);
+$pdf->cell(130,5,'',1,0);
+$pdf->cell(130,5,'',1,1);
+$pdf->Output();
+<?
